@@ -1,11 +1,13 @@
+import { Axios } from "axios";
 import React from "react";
-import Movies from "./pages/Movies";
+import AxiosLearning from "./pages/AxiosLearning";
 
 const App = () => {
   return (
     <div>
-      <h1>learning axios</h1>
-      <Movies />
+      <section>
+        <AxiosLearning />
+      </section>
     </div>
   );
 };
